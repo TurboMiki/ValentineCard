@@ -4,7 +4,6 @@ document.getElementById('button').addEventListener('click', function() {
     container.style.opacity = '0';
     container.style.visibility = 'none';
 
-
     document.addEventListener('mousemove',function(e){
         let body = document.querySelector('body');
         let heart = document.createElement('span');
@@ -25,5 +24,7 @@ document.getElementById('button').addEventListener('click', function() {
             heart.remove();
         },1000)
     })
-
+    
+    const yayText = document.getElementById('yayText');
+    yayText.style.opacity = '1';
 });

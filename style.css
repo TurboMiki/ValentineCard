@@ -17,6 +17,12 @@ body {
     transition: opacity 1s ease;
     opacity: 1;
 }
+.YAY{
+    color: antiquewhite;
+    font-size: 72px;
+    font-family: "Sofia", sans-serif;
+    opacity: 0;
+}
 .text1{
     color: antiquewhite;
     font-size: 24px;
@@ -24,6 +30,7 @@ body {
     padding: 120px;
     top: 0%;
 }
+
 .text2{
     color: antiquewhite;
     font-size: 24px;
